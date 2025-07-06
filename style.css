@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" );
 
 * {
- margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     
@@ -11,6 +11,7 @@ body {
     font-family: "Roboto", sans-serif;
     overflow-y: hidden;
     overflow-x: hidden;
+ 
 }
 
 .navbar {
@@ -24,7 +25,9 @@ body {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    top: 0px;
+  
+    top: 0px; 
+   
 }
 .main-content{
     display: flex;
@@ -32,11 +35,11 @@ body {
     margin-top: 56px;
     background-color: rgba(15, 15, 15,);
     height: calc(100vh - 56px);
+    width: 100vw; 
     overflow-x: hidden;
+    position: relative;
     
-   
-    
-    
+
 }
 
 /* nav-bar */
@@ -46,12 +49,15 @@ body {
     align-items: center;
     height: 56px;
     width:169px;
+    position: relative;
 }
 .guide {
-     display: block;
+    display: block;
     height: 40px;
     width: 40px;
     padding: 8px;
+    position: relative;
+    cursor: pointer;
 }
 .guide:hover {
     border-radius: 9999px;
@@ -61,7 +67,7 @@ body {
     fill: rgb(255, 255, 255);
 }
 .logo {
-     align-items: center;
+    align-items: center;
     display: inline-flex;
     height: 56px;
     width: 123px;
@@ -69,6 +75,8 @@ body {
     padding-bottom: 18px;
     padding-left: 16px;
     padding-right: 14px;
+    position: relative;
+    cursor: pointer;
 }
 .logo img {
     height: 20px;
@@ -82,6 +90,7 @@ body {
     color: rgb(170, 170, 170);
     margin-top: 12px;
     margin-left: -10px;
+    position: relative;
 }
 .center {
     display: flex;
@@ -89,6 +98,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 40px; 
+    width:751.144px ;
+    position: relative;
 }
 .search-bar {
     display: flex;
@@ -97,6 +108,7 @@ body {
     margin-left: 40px;
     padding: 0 4px;
     align-self: center;
+    position: relative;
 }
 .search {
     align-items: center;
@@ -113,6 +125,7 @@ body {
     margin-left: 32px;
    
     background-color:rgb(18, 18, 18) ;
+    position: relative;
 }
 
 .search input {
@@ -143,6 +156,8 @@ body {
     border-left: 1px solid rgb(48, 48, 48);
     border-top: 1px solid rgb(48, 48, 48);
     border-bottom: 1px solid rgb(48, 48, 48);
+    position: relative;
+    cursor: pointer;
 }
 .search-icon svg {
     fill: rgb(255, 255, 255);
@@ -157,8 +172,8 @@ body {
     justify-content: center;
     border-radius: 9999px;
     background-color: rgba(255, 255, 255, 0.1);
-    /* backdrop-filter: blur(4px); */
-    /* background-color:rgb(35, 35, 35); */
+    cursor: pointer;
+    position: relative;
 }
 .voice:hover {
     background-color: rgb(62, 62, 62);
@@ -170,6 +185,7 @@ body {
     height: 40px;
     width: 255px;
     align-items: center;
+    position: relative;
     
 }
 .create {
@@ -188,6 +204,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     justify-content: center;
+    cursor: pointer;
 
 }
 .create:hover {
@@ -209,6 +226,7 @@ body {
     justify-content: center;
     border-radius: 9999px;
     /* background-color:rgb(35, 35, 35); */
+    cursor: pointer;
 }
 .notifications:hover {
     background-color: rgb(62, 62, 62); 
@@ -227,6 +245,8 @@ body {
     padding-right: 6px;
     padding-inline-start: 6px;
     padding-inline-end: 6px;
+    position: relative;
+    cursor: pointer;
 }
 .profile img {
     border-radius: 50%;
@@ -242,7 +262,7 @@ body {
 
 /* main-content */
 .categories {
-    display:flex;
+    display:block;
     flex-direction: column;
     height: 100%;
     width: 240px;
@@ -253,9 +273,12 @@ body {
     scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
     scrollbar-width: thin;
     padding-top: 12px;
+    cursor: pointer;
+    
 }
 .categories-section-one {
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     width: 216px;
    border-bottom: 1px solid rgb(63, 63, 63);
    padding: 12px; 
@@ -269,7 +292,7 @@ body {
     height: 40px;
     width:192px;
     flex-direction: row;
-    padding: 0 12px;
+    padding: 0 12px; 
     font-size: 14px;
     color: rgb(241, 241, 241);
     font-weight: 500;
@@ -346,6 +369,7 @@ body {
    width: 219.733px;
    border-bottom: 1px solid rgb(63, 63, 63);
    padding: 12px;
+   
   
 }
 
@@ -423,7 +447,7 @@ body {
     margin-right: 24px;
 }
 .your-videos:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .watch-later {
@@ -495,6 +519,9 @@ body {
     font-weight: 500; 
    white-space: nowrap;
 }
+.n-m {
+    width:116px;
+}
 .dp-area {
     display: flex;
     height: 24px;
@@ -508,25 +535,31 @@ body {
     
 }
 .ntebogeng-marobela svg {
-   margin-top: 4px;
-   margin-left: 24px;
     fill: rgb(225, 0, 45);
 }
 .ntebogeng-marobela:hover {
     border-radius: 12px;
     background-color: rgb(39, 39, 39);  
 }
+a {
+    text-decoration: none;
+}
 .apple {
     align-items: center;
+  
     display: flex;
     flex-direction:row ;
     height: 40px;
-    width: 195.722px;
+    width: 195.722px; 
     color: rgb(241, 241, 241);
     font-size: 14px;
     font-weight: 500; 
     padding: 0 12px;
 }
+.apple-inc {
+    width:116px;
+}
+
 .apple img {
     border-radius: 50%;
     height: 24px;
@@ -548,6 +581,9 @@ body {
     font-weight: 500; 
     padding: 0 12px;
 }
+.m-s {
+    width:116px;
+}
 .microsoft img {
     border-radius: 50%;
     height: 24px;
@@ -568,6 +604,9 @@ body {
     font-size: 14px;
     font-weight: 500;  
     padding: 0 12px;
+}
+.g-llc {
+    width:116px;
 }
 .google img {
     border-radius: 50%;
@@ -591,6 +630,9 @@ body {
     font-weight: 500; 
     padding: 0 12px;
 }
+.p-s {
+   width:116px; 
+}
 .playstation img{
     height: 24px;
     width: 24px;
@@ -598,7 +640,7 @@ body {
     margin-right: 24px;
 }
 .playstation:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .rockstar-games {
@@ -609,9 +651,12 @@ body {
     height: 40px;
     width: 195.722px;
     color:rgb(241, 241, 241) ;
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 500; 
     padding: 0 12px;
+}
+.r-g {
+  width:116px;   
 }
 .rockstar-games img {
     height: 24px;
@@ -634,6 +679,9 @@ body {
     font-size: 14px;
     font-weight: 500; 
     padding: 0 12px;  
+}
+.beamer {
+    width:116px; 
 }
 .bmw img {
     height: 24px;
@@ -660,7 +708,7 @@ body {
     margin-right: 24px;
 }
 .show-more:hover {
-      border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .explore-section {
@@ -699,7 +747,7 @@ body {
     margin-right: 24px;
 }
 .trending:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .music {
@@ -729,32 +777,32 @@ body {
     flex-direction: row;
     padding: 0 12px;
     color:rgb(241, 241, 241);
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 500;   
 }
 .gaming svg {
     margin-right: 24px;
 }
 .gaming:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .news {
-       align-items: center;
+    align-items: center;
     display: flex;
     height: 40px;
     width: 180px;
     flex-direction: row;
     padding: 0 12px;
     color:rgb(241, 241, 241) ;
- font-size: 14px;
+    font-size: 14px;
     font-weight: 500; 
 }
 .news svg {
     margin-right: 24px;
 }
 .news:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .sports {
@@ -772,18 +820,18 @@ body {
     margin-right: 24px;
 }
 .sports:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39); 
 }
 .podcasts {
-       align-items: center;
+    align-items: center;
     display: flex;
     height: 40px;
     width: 180px;
     flex-direction: row;
     padding: 0 12px;
     color:rgb(241, 241, 241) ;
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 500;  
 }
 .podcasts svg {
@@ -833,7 +881,7 @@ body {
     margin-right: 24px;
 }
 .youtube-premium:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39);  
 }
 .youtube-studio {
@@ -844,7 +892,7 @@ body {
     width:204px ;
     padding: 0 12px;
     color:rgb(241, 241, 241) ;
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 500; 
    white-space: nowrap;
 }
@@ -852,7 +900,7 @@ body {
      margin-right: 24px; 
 }
 .youtube-studio:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39);  
 }
 .youtube-music {
@@ -934,13 +982,12 @@ body {
     font-size: 14px;
     font-weight: 500;   
     white-space: nowrap; 
-
 }
 .report-history svg {
    margin-right: 24px;
 }
 .report-history:hover {
-     border-radius: 12px;
+    border-radius: 12px;
     background-color: rgb(39, 39, 39);  
 }
 .help {
@@ -951,7 +998,7 @@ body {
     flex-direction: row;
     padding: 0 12px;
     color:rgb(241, 241, 241) ;
-     font-size: 14px;
+    font-size: 14px;
     font-weight: 500;  
     white-space: nowrap; 
     
@@ -1000,9 +1047,8 @@ body {
     white-space: wrap;
     padding-bottom: 12px;
 }
-
 .footer span {
-     white-space: wrap;
+    white-space: wrap;
     margin-right: 4px; 
 }
 .footer-two {
@@ -1032,51 +1078,43 @@ body {
 }
 
 .videos {
-    display: b;
-    height: 100%;
+    
+    width:calc(100vw - 240px);
     flex-basis: auto;
     position: relative;
-    padding-top: 24px; 
-    width:calc(100vw - 240px);
-    align-items: center;
-    justify-content: center;
     overflow-y: scroll;
     overflow-x: hidden;
     scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
     scrollbar-width: thin;
+    position: relative;
+   
+     
+   
 } 
 .video-grid {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     padding: 15px;
-    width: 1665px;
    
 }
 .video {
-    display: block;
-    height:319.975px ;
-    width: 342.1px;
-    margin-right:8px;
-    margin-left: 8px;
+    height: 100%;
+    width:calc(25% - 12px);
+    margin-right: 12px;
     margin-bottom: 35px;
     cursor: pointer;
 }
-.thumbnail {
-    height: 197.742px;
-    width:343.975px ;
-    display: block;
-}
-
-.thumbnail img {
-    height:193.483px; 
-    width: 343.983px;
+.video .thumbnail img {
+    width: 100%; 
     border-radius: 12px;
 }
 .details {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    width:343.983px;
-    margin-top: 4px;
+ 
+    margin-top: 4px; 
 }
 .video-options {
     display: flex;
@@ -1091,7 +1129,7 @@ body {
 .profile-sec {
     display: flex;
     flex-direction: column;
-    width:300px;
+    width: 100%;
 }
 .details img {
     border-radius: 50%;
@@ -1101,7 +1139,6 @@ body {
     margin-right:12px ;
 }
 .video-title {
-    
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -1131,11 +1168,15 @@ body {
     flex-direction: row;
     color: rgb(170, 170, 170);
     align-items: center;
+    letter-spacing: 0.35px;
 }
 .posted-by svg {
     fill: rgb(170, 170, 170);
     margin-top: 2px;
     padding-left: 4px;
+}
+.posted-by:hover {
+    color: rgb(241, 241, 241);
 }
 .views-and-duration {
     display: flex;
@@ -1144,6 +1185,35 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+.new-dot {
+    display: flex;
+    height:4px;
+    width:4px;
+    color: rgb(62, 166, 255);
+    font-weight: 400;
+    margin: 0 6px;
+    align-items: center;
+    justify-content: center;
+}
 .dot {
     margin: 0 4px;
+}
+.link {
+    display: block;
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    font-weight: 400;
+    margin-right:-1.4px;
+    padding-right: 1.4px;
+}
+.link:hover{
+    color: rgb(241, 241, 241);
+}
+.badge{
+    display: flex;
+    height: 14.025px;
+    width: 13.9969px;
+    margin-bottom: 1px;
+    align-items: center;
+    justify-content: center;
 }
