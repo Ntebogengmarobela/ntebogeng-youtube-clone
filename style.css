@@ -176,6 +176,7 @@ body {
         display: block;
         width: 375.2px;
         padding-top: 24px; 
+        margin-left: 0px;
      
     }
     .main-content .videos .video-grid {
@@ -183,14 +184,15 @@ body {
         width: 375.2px;
         flex-wrap: wrap;
         
-        padding: 0px;
+        padding: 15px;
     }
     .main-content .videos .video-grid .video {
         align-items: center;
         justify-content: center;
         height:282.138px;
-        margin-left: 20px;
-        margin-right: 4px; 
+        /* margin-left: 20px; */
+        margin-left: 4px; 
+        margin-right: 4px;
         width: 335.188px;
         margin-bottom: 32px;
         margin-right: 0px;
@@ -1264,6 +1266,8 @@ a {
     scrollbar-color: rgb(170, 170, 170) rgba(0, 0, 0, 0);
     scrollbar-width: thin;
     position: relative;
+    align-items: center;
+    justify-content: center;
 } 
 
 .video-grid {
@@ -1271,15 +1275,20 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 15px;
+    
    
 }
 .video {
     height: 100%;
-    width:calc(25% - 12px);
+    width:calc(25% - 12px); 
+    /* margin-left: 12px;  */
     margin-right: 12px;
     margin-bottom: 35px;
     cursor: pointer;
+    
+
 }
+
 .video .thumbnail img {
     width: 100%; 
     border-radius: 12px;
