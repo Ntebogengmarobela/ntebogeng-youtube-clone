@@ -19,7 +19,6 @@ body {
     }
     
 }
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -465,6 +464,25 @@ body {
    font-weight: 500;
 
 }
+.categories-sec-item {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    color:rgb(241, 241, 241);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 12px;
+}
+.categories-sec-item svg {
+    margin-right: 24px;
+    
+}
+.categories-sec-item:hover {
+    border-radius: 12px;
+    background-color: rgb(39, 39, 39);
+}
+
 .home {
     align-items: center;
     display: flex;
@@ -495,52 +513,10 @@ body {
 .home-active svg {
     color:rgb(225, 0, 45) ;
 }
-
 .home {
     border-radius: 12px;
     background-color: rgb(39, 39, 39);
 }
-.shorts {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 192px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color: rgb(241, 241, 241);
-    font-weight: 500;
-}
-.shorts svg {
-    height: 24px;
-    width: 24px;
-    margin-right: 24px;
-}
-.shorts:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);
-}
-.subscriptions {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 192px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color: rgb(241, 241, 241);
-    font-weight: 500;
-}
-.subscriptions svg  {
-    height: 24px;
-    width: 24px;
-    margin-right: 24px;
-}
-.subscriptions:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);
-}
-
 .categories-section-two {
    display: flex;
    flex-direction: column;
@@ -548,8 +524,6 @@ body {
    width: 219.733px;
    border-bottom: 1px solid rgb(63, 63, 63);
    padding: 12px;
-   
-  
 }
 .you {
     align-items: center;
@@ -573,101 +547,11 @@ body {
     border-radius: 12px;
     background-color: rgb(39, 39, 39);
 }
-.history {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-     color:rgb(241, 241, 241);
-    font-weight: 500;
-}
-.history svg {
-    margin-right: 24px;
-}
-.history:hover {
-   border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.playlists {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color:rgb(241, 241, 241);
-    font-weight: 500;
-} 
-.playlists svg {
-    margin-right: 24px;
-}
-.playlists:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.your-videos {
-   align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color:rgb(241, 241, 241);
-    font-weight: 500;
-}
-.your-videos svg {
-    margin-right: 24px;
-}
-.your-videos:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.watch-later {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color:rgb(241, 241, 241);
-    font-weight: 500;
-}
-.watch-later svg {
-    margin-right: 24px;
-}
-.watch-later:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.liked-videos {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    font-size: 14px;
-    color:rgb(241, 241, 241);
-    font-weight: 500;
-}
-.liked-videos svg {
-    margin-right: 24px;
-}
-.liked-videos:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
 .subscriptions-section {
     display: flex;
     flex-direction: column;
-    height:384.533px ;
-    width:219.725px ;
+    height:384.533px;
+    width:219.725px;
     font-size: 16px;
     border-bottom: 1px solid rgb(63, 63, 63);
     padding: 12px;
@@ -684,6 +568,32 @@ body {
     padding-left: 12px;
     padding-right: 12px;
 }
+.account-holder {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 195.722px;
+    padding: 0 12px;
+    color: rgb(241, 241, 241);
+    font-size: 14px;
+    font-weight: 500; 
+   white-space: nowrap;
+}
+.account-holder img {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
+
+.account-holder svg {
+    fill: rgb(225, 0, 45);
+}
+.account-holder:hover {
+    border-radius: 12px;
+    background-color: rgb(39, 39, 39);  
+}
 .ntebogeng-marobela {
     align-items: center;
     display: flex;
@@ -696,182 +606,34 @@ body {
     font-weight: 500; 
    white-space: nowrap;
 }
-.n-m {
+.sub-profile-id{
     width:116px;
-}
-.dp-area {
-    display: flex;
-    height: 24px;
-    width: 24px;
-    margin-right: 24px
-}
-.dp-area img {
-    border-radius: 50%;
-    height: 24px;
-    width: 24px;
-    
-    display: block;
-    
-}
-.ntebogeng-marobela svg {
-    fill: rgb(225, 0, 45);
-}
-.ntebogeng-marobela:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
 }
 a {
     text-decoration: none;
 }
-.apple {
+
+.subscribed-account {
     align-items: center;
-  
     display: flex;
     flex-direction:row ;
     height: 40px;
-    width: 195.722px; 
     color: rgb(241, 241, 241);
     font-size: 14px;
     font-weight: 500; 
     padding: 0 12px;
 }
-.apple-inc {
-    width:116px;
-}
-
-.apple img {
+.subscribed-account img {
     border-radius: 50%;
     height: 24px;
     width: 24px;
     margin-right: 24px;
 }
-.apple:hover {
+.subscribed-account:hover {
     border-radius: 12px;
     background-color: rgb(39, 39, 39);   
 }
-.microsoft {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 195.722px;
-    color: rgb(241, 241, 241);
-    font-size: 14px;
-    font-weight: 500; 
-    padding: 0 12px;
-}
-.m-s {
-    width:116px;
-}
-.microsoft img {
-    border-radius: 50%;
-    height: 24px;
-    width: 24px;
-    margin-right: 24px;
-}
-.microsoft:hover {
-   border-radius: 12px;
-    background-color: rgb(39, 39, 39);    
-}
-.google {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 195.722px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;  
-    padding: 0 12px;
-}
-.g-llc {
-    width:116px;
-}
-.google img {
-    border-radius: 50%;
-    height: 24px;
-    width: 24px;
-    margin-right: 24px;
-}
-.google:hover {
-   border-radius: 12px;
-   background-color: rgb(39, 39, 39);  
-}
 
-.playstation {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 195.722px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-    padding: 0 12px;
-}
-.p-s {
-   width:116px; 
-}
-.playstation img{
-    height: 24px;
-    width: 24px;
-    border-radius: 50px;
-    margin-right: 24px;
-}
-.playstation:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.rockstar-games {
-    align-items: center;
-    
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 195.722px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-    padding: 0 12px;
-}
-.r-g {
-  width:116px;   
-}
-.rockstar-games img {
-    height: 24px;
-    width: 24px;
-    border-radius: 50px;
-    margin-right: 24px;
-}
-.rockstar-games:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.bmw {
-    align-items: center;
-    
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width: 195.722px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-    padding: 0 12px;  
-}
-.beamer {
-    width:116px; 
-}
-.bmw img {
-    height: 24px;
-    width: 24px;
-    border-radius: 50px;
-    margin-right: 24px;
-}
-.bmw:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
 .show-more {
     align-items: center;
     display: flex;
@@ -908,117 +670,7 @@ a {
     font-weight: 500;
     padding-top: 6px;
     padding-bottom: 4px;
-    padding-left: 12px;
     padding-right: 12px;
-}
-.trending {
-   align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;   
-}
-.trending svg {
-    margin-right: 24px;
-}
-.trending:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.music {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
- 
-}
-.music svg {
-    margin-right: 24px;
-}
-.music:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.gaming {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241);
-    font-size: 14px;
-    font-weight: 500;   
-}
-.gaming svg {
-    margin-right: 24px;
-}
-.gaming:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.news {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-}
-.news svg {
-    margin-right: 24px;
-}
-.news:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.sports {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-}
-.sports svg {
-    margin-right: 24px;
-}
-.sports:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
-}
-.podcasts {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 180px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;  
-}
-.podcasts svg {
-    margin-right: 24px;
-}
-.podcasts:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39); 
 }
 
 .more-from-youtube {
@@ -1026,10 +678,8 @@ a {
     flex-direction: column;
     height:214.267px ;
     width: 219.733px;
-    
     padding: 12px; 
     border-bottom: 1px solid rgb(63, 63, 63);
-    
 }
 .mfyt-headline {
     color:rgb(241, 241, 241);
@@ -1039,173 +689,8 @@ a {
     padding-left: 12px;
     padding-right: 12px;
     font-weight: 500;
-    
     height:29.7333px ;
     width:195.725px ;
-  
-}
-.youtube-premium {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 204px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;  
-    white-space: nowrap; 
-}
-.youtube-premium svg {
-    margin-right: 24px;
-}
-.youtube-premium:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-.youtube-studio {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width:204px ;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-   white-space: nowrap;
-}
-.youtube-studio svg {
-     margin-right: 24px; 
-}
-.youtube-studio:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-.youtube-music {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width:204px ;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-   white-space: nowrap;
-}
-.youtube-music svg {
-    margin-right: 24px;
-}
-.youtube-music:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-.youtube-kids {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    width:204px ;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-    white-space: nowrap;
-}
-.youtube-kids svg {
-    margin-right: 24px;
-}
-.youtube-kids:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-
-.more-options-section {
-    display:flex;
-    flex-direction: column;
-    height: 184.533px;
-    width: 219.733px;
-   
-    padding: 12px;
-    border-bottom: 1px solid rgb(63, 63, 63);
-   
-}
-.settings {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 204px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;    
-    white-space: nowrap; 
-}
-.settings svg {
-    margin-right: 24px;
-}
-.settings:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-.report-history {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    width: 204px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;   
-    white-space: nowrap; 
-}
-.report-history svg {
-   margin-right: 24px;
-}
-.report-history:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);  
-}
-.help {
-   align-items: center;
-    display: flex;
-    height: 40px;
-    width: 204px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500;  
-    white-space: nowrap; 
-    
-}
-.help svg {
-    margin-right: 24px;
-}
-.help:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);   
-}
-.send-feedback {
-    align-items: center;
-    display: flex;
-    height: 40px;
-    flex-direction: row;
-    padding: 0 12px;
-    color:rgb(241, 241, 241) ;
-    font-size: 14px;
-    font-weight: 500; 
-    white-space: nowrap; 
-}
-.send-feedback svg {
-    margin-right: 24px;
-}
-.send-feedback:hover {
-    border-radius: 12px;
-    background-color: rgb(39, 39, 39);   
 }
 .categories-footer {
     display: block;
@@ -1285,10 +770,7 @@ a {
     margin-right: 12px;
     margin-bottom: 35px;
     cursor: pointer;
-    
-
 }
-
 .video .thumbnail img {
     width: 100%; 
     border-radius: 12px;
